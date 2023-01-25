@@ -32,11 +32,11 @@ variable "environment" {
 }
 
 variable "min_size" {
-  description = "Minimum number of instances in the autoscaling group.
+  description = "Minimum number of instances in the autoscaling group."
   default = 1
 }
 
 variable "max_size" {
-  description = "Maximum number of instances in the autoscaling group.
+  description = "Maximum number of instances in the autoscaling group."
   default = 2
 }
